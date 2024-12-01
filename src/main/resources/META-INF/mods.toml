@@ -51,10 +51,3 @@ description='''longerlogintimes reduces the timeout time.'''
     versionRange="[1.20,1.21)"
     ordering="NONE"
     side="BOTH"
-# Config Lib
-[[dependencies.longerlogintimes]]
-    modId="supermartijn642configlib"
-    mandatory=true
-    versionRange="[1.1.4,)"
-    ordering="NONE"
-    side="BOTH"
