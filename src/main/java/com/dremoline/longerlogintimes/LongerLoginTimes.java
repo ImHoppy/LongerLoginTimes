@@ -12,7 +12,6 @@ public class LongerLoginTimes {
 
     public LongerLoginTimes(){
         ModLoadingContext.get().registerExtensionPoint(IExtensionPoint.DisplayTest.class, () -> new IExtensionPoint.DisplayTest(() -> "IGNORESERVERONLY", (a, b) -> b));
-        LongerLoginTimesConfig.init();
     }
 
 }

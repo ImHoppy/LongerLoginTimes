@@ -85,9 +85,6 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.18.1-39.0.17'
 
-    // Config Lib
-    implementation fg.deobf("curse.maven:supermartijn642s-config-lib-438332:3542143")
-
     annotationProcessor 'org.spongepowered:mixin:0.8.4:processor'
 }
 
